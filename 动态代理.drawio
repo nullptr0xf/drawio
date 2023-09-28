@@ -1,0 +1,169 @@
+<mxfile host="app.diagrams.net" modified="2023-09-28T09:09:36.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="xHQwmKvaf15He04kkTSe" version="21.8.2" type="github">
+  <diagram name="第 1 页" id="tTmgBB-NBdKqIUQ4SjUK">
+    <mxGraphModel dx="1050" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-10" value="BookServiceImpl" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="350" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-11" value="update()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EVJUE0Ffv9MS41qOeUAJ-10" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-12" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="EVJUE0Ffv9MS41qOeUAJ-10" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-13" value="add()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EVJUE0Ffv9MS41qOeUAJ-10" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-16" value="假设要代理BookServiceImpl类，他实现了BookService" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="80" y="170" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-17" value="BookService" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="230" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-18" value="update()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EVJUE0Ffv9MS41qOeUAJ-17" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="EVJUE0Ffv9MS41qOeUAJ-17" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-20" value="add()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EVJUE0Ffv9MS41qOeUAJ-17" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-21" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.506;entryY=1.077;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="EVJUE0Ffv9MS41qOeUAJ-10" target="EVJUE0Ffv9MS41qOeUAJ-20" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="320" as="sourcePoint" />
+            <mxPoint x="490" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-24" value="编写代理类的人要做的事情" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="250" y="170" width="420" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-25" value="JDK动态代理的使用" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="330" y="80" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-26" value="BookServiceProxy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="350" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-27" value="存一个BookService对象" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EVJUE0Ffv9MS41qOeUAJ-26" vertex="1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="EVJUE0Ffv9MS41qOeUAJ-26" vertex="1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-29" value="Invoke()中写自己的代理逻辑" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EVJUE0Ffv9MS41qOeUAJ-26" vertex="1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-30" value="InvocationHandler" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="270" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="EVJUE0Ffv9MS41qOeUAJ-30" vertex="1">
+          <mxGeometry y="26" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-33" value="Invoke()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="EVJUE0Ffv9MS41qOeUAJ-30" vertex="1">
+          <mxGeometry y="34" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-34" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="EVJUE0Ffv9MS41qOeUAJ-26" target="EVJUE0Ffv9MS41qOeUAJ-30" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="320" as="sourcePoint" />
+            <mxPoint x="490" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-36" value="&lt;div align=&quot;left&quot;&gt;调用Proxy.newProxyInstance()传入下面三个参数：(前两个用于生成代理对象)&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;BookService的ClassLoader&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;BookService.class&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;BookServiceProxy对象&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" parent="1" vertex="1">
+          <mxGeometry x="450" y="270" width="220" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-37" value="JDK动态代理对象产生流程" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="160" y="480" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-38" value="Proxy.newProxyInstance()" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="160" y="550" width="210" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-39" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.471;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="EVJUE0Ffv9MS41qOeUAJ-38" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="220" y="640" as="sourcePoint" />
+            <mxPoint x="259" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-40" value="&lt;div align=&quot;left&quot;&gt;一系列验证以及缓存之类的操作&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;调用顺序:&lt;br&gt;Proxy.getProxyClass0&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;WeakCache.get()&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Proxy.ProxyClassFactory.apply()静态内部类&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" parent="1" vertex="1">
+          <mxGeometry x="270" y="630" width="240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-41" value="ProxyGenerator.generateProxyClass()&lt;br&gt;&lt;div align=&quot;left&quot;&gt;生成字节码&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="135" y="790" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-43" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.471;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="EVJUE0Ffv9MS41qOeUAJ-44" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="840" as="sourcePoint" />
+            <mxPoint x="260" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-44" value="&lt;div align=&quot;left&quot;&gt;Proxy.defineClass0，本地方法，C/C++实现&lt;br&gt;将字节码加载到JVM，并且生成Class对象&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" parent="1" vertex="1">
+          <mxGeometry x="90" y="870" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-45" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.471;exitY=1.08;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="EVJUE0Ffv9MS41qOeUAJ-46" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="260" y="920" as="sourcePoint" />
+            <mxPoint x="260" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-46" value="Constructor.newInstance()，传入自己写的代理类&lt;br&gt;创建对象并返回一个继承于Proxy, 实现了BookService的类" style="html=1;whiteSpace=wrap;align=left;" parent="1" vertex="1">
+          <mxGeometry x="90" y="950" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-47" value="JDK动态代理对象内部函数调用流程" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="627" y="480" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-48" value="假设该对叫bookProxy，调用&lt;br&gt;bookProxy.update()时" style="html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="637" y="550" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-49" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EVJUE0Ffv9MS41qOeUAJ-48" target="EVJUE0Ffv9MS41qOeUAJ-50" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="700" y="660" as="sourcePoint" />
+            <mxPoint x="730" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-50" value="&lt;div align=&quot;left&quot;&gt;函数内部调用super.h.invoke()，其实就是调用了我们之前自己写的代理函数&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;传入this, Method和Method的参数&lt;br&gt;super是proxy&lt;br&gt;h是我们自己写的实现了Invocation的代理类对象&lt;br&gt;是一开始调用Proxy.newProxyInstance()传入的&lt;br&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;align=left;" parent="1" vertex="1">
+          <mxGeometry x="597" y="630" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EVJUE0Ffv9MS41qOeUAJ-51" value="从外面看起来，就实现了不修改原本代码，而且能够对原来代码进行代理的目的" style="html=1;whiteSpace=wrap;align=left;" parent="1" vertex="1">
+          <mxGeometry x="870" y="510" width="110" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="o1TtKvGJzOLuY45ndvV5-1" value="cglib代理调用过程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o1TtKvGJzOLuY45ndvV5-2" value="代理类ProxyObject.method()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="130" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o1TtKvGJzOLuY45ndvV5-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="o1TtKvGJzOLuY45ndvV5-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1230" y="270" as="sourcePoint" />
+            <mxPoint x="1225" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o1TtKvGJzOLuY45ndvV5-4" value="MethodIntercept.intercept()，传入参数和MethodProxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="240" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o1TtKvGJzOLuY45ndvV5-5" value="MethodProxy.invokeSuper()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="350" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o1TtKvGJzOLuY45ndvV5-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1224.5" y="300" as="sourcePoint" />
+            <mxPoint x="1224.5" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o1TtKvGJzOLuY45ndvV5-7" value="MethodProxy.invoke()" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="350" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o1TtKvGJzOLuY45ndvV5-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1224.5" y="410" as="sourcePoint" />
+            <mxPoint x="1224.5" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o1TtKvGJzOLuY45ndvV5-10" value="FastClass.invoke()，根据方法索引调用对应函数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="460" width="320" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
