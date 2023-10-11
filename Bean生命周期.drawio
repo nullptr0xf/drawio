@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T07:40:10.643Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="5s_0o_beyRuxBckMoEXP" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T07:43:58.806Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="IQtx-nQ7vRLpuKOl0KJg" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1042" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -32,8 +32,14 @@
             <mxPoint x="-3" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="kpfPfC60SvLyRLPd567x-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kpfPfC60SvLyRLPd567x-4" target="kpfPfC60SvLyRLPd567x-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kpfPfC60SvLyRLPd567x-4" value="调用实例化前处理器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="100" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kpfPfC60SvLyRLPd567x-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kpfPfC60SvLyRLPd567x-8" target="kpfPfC60SvLyRLPd567x-27">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="kpfPfC60SvLyRLPd567x-8" value="调用初始化后处理器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="490" y="180" width="150" height="50" as="geometry" />
@@ -71,6 +77,12 @@
         </mxCell>
         <mxCell id="kpfPfC60SvLyRLPd567x-21" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="265" y="400" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="kpfPfC60SvLyRLPd567x-25" value="依次执行所有实例化processor，&lt;br&gt;若当前processor返回值非空，直接返回" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="100" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kpfPfC60SvLyRLPd567x-27" value="依次执行所有初始化processor，&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;若当前processor返回值非空，直接返回" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="175" width="180" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
