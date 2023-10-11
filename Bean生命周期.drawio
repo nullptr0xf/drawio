@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T07:43:58.806Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="IQtx-nQ7vRLpuKOl0KJg" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T08:13:05.043Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.60" etag="YBl5V4z2SWc_luat0sNG" version="22.0.4" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1042" dy="582" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,9 +47,9 @@
         <mxCell id="kpfPfC60SvLyRLPd567x-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kpfPfC60SvLyRLPd567x-13" target="kpfPfC60SvLyRLPd567x-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kpfPfC60SvLyRLPd567x-17" value="空" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kpfPfC60SvLyRLPd567x-16">
-          <mxGeometry x="-0.2713" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="kpfPfC60SvLyRLPd567x-30" value="null" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="kpfPfC60SvLyRLPd567x-16">
+          <mxGeometry x="-0.2171" y="5" relative="1" as="geometry">
+            <mxPoint x="-5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="kpfPfC60SvLyRLPd567x-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.21;entryY=0.338;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kpfPfC60SvLyRLPd567x-13" target="kpfPfC60SvLyRLPd567x-21">
@@ -57,7 +57,7 @@
             <mxPoint x="170" y="410" as="targetPoint" />
             <Array as="points">
               <mxPoint x="171" y="210" />
-              <mxPoint x="171" y="410" />
+              <mxPoint x="171" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -72,17 +72,23 @@
         <mxCell id="kpfPfC60SvLyRLPd567x-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kpfPfC60SvLyRLPd567x-15" target="kpfPfC60SvLyRLPd567x-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kpfPfC60SvLyRLPd567x-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kpfPfC60SvLyRLPd567x-15" target="kpfPfC60SvLyRLPd567x-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kpfPfC60SvLyRLPd567x-15" value="继续后续执行doCreateBean" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="215" y="280" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="kpfPfC60SvLyRLPd567x-21" value="" style="shape=waypoint;sketch=0;size=6;pointerEvents=1;points=[];fillColor=default;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="265" y="400" width="20" height="20" as="geometry" />
+          <mxGeometry x="265" y="360" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="kpfPfC60SvLyRLPd567x-25" value="依次执行所有实例化processor，&lt;br&gt;若当前processor返回值非空，直接返回" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="660" y="100" width="180" height="50" as="geometry" />
+        <mxCell id="kpfPfC60SvLyRLPd567x-25" value="依次执行所有&lt;font color=&quot;#cc0000&quot;&gt;实例化前processor&lt;/font&gt;，&lt;br&gt;若当前processor返回值非空，直接返回" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="100" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kpfPfC60SvLyRLPd567x-27" value="依次执行所有初始化processor，&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;若当前processor返回值非空，直接返回" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="660" y="175" width="180" height="60" as="geometry" />
+        <mxCell id="kpfPfC60SvLyRLPd567x-27" value="依次执行所有&lt;font color=&quot;#ff0000&quot;&gt;初始化后processor，&lt;/font&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;若当前processor返回值非空，直接返回" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="660" y="175" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kpfPfC60SvLyRLPd567x-31" value="createInstance()" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="280" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
