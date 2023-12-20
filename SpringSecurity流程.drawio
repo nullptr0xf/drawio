@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-12-20T14:54:49.948Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="O-x1PBrXfnC5F9_9AJoE" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-20T15:09:44.281Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="GEGHIaBw9kZiZxfJpqZU" version="22.1.11" type="github">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
-    <mxGraphModel dx="719" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1042" dy="632" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="UsernamePasswordAuthenticationFilter" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
-          <mxGeometry x="140" y="40" width="100" height="300" as="geometry" />
+          <mxGeometry x="140" y="40" width="100" height="370" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-1" vertex="1">
-          <mxGeometry x="45" y="70" width="10" height="190" as="geometry" />
+          <mxGeometry x="45" y="70" width="10" height="300" as="geometry" />
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-3" value="提交用户密码" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="aM9ryv3xv72pqoxQDRHE-1" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -41,12 +41,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-6" target="aM9ryv3xv72pqoxQDRHE-2" edge="1">
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-8" value="&lt;font color=&quot;#ff0000&quot;&gt;8.返回Authentication对象&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="EK2Y7mVLeQkU_shZ-Vnz-8" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="335" y="205" as="targetPoint" />
+            <mxPoint x="195" y="339.17" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="330" y="280" />
+              <mxPoint x="330" y="339.17" />
             </Array>
+            <mxPoint x="575" y="339.17" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aM9ryv3xv72pqoxQDRHE-9" value="callback" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" parent="1" source="aM9ryv3xv72pqoxQDRHE-5" edge="1">
@@ -67,14 +68,14 @@
             <mxPoint x="200" y="240" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-7" value="1.用账号密码new一个UsernamePasswordAuthenticationToken" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="260" y="100" width="150" height="30" as="geometry" />
+        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-7" value="1.用账号密码new一个UsernamePasswordAuthenticationToken&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;(Authentication子类)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="100" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-8" value="DaoAuthenticationProvider" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
-          <mxGeometry x="720" y="50" width="160" height="300" as="geometry" />
+          <mxGeometry x="720" y="50" width="160" height="320" as="geometry" />
         </mxCell>
         <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="EK2Y7mVLeQkU_shZ-Vnz-8">
-          <mxGeometry x="75" y="80" width="10" height="170" as="geometry" />
+          <mxGeometry x="75" y="80" width="10" height="210" as="geometry" />
         </mxCell>
         <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-10" value="3.调Provider的authenticate()" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.0004" relative="1" as="geometry">
@@ -86,8 +87,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-11" value="4.调用&lt;font color=&quot;#ff0000&quot;&gt;UserDetailService.loadUserByUsername&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" parent="1">
-          <mxGeometry x="0.0651" y="8" relative="1" as="geometry">
+        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-11" value="4.调用&lt;font color=&quot;#ff0000&quot;&gt;UserDetailService.loadUserByUsername&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;entryX=-0.009;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="EK2Y7mVLeQkU_shZ-Vnz-12">
+          <mxGeometry x="0.065" y="8" relative="1" as="geometry">
             <mxPoint x="810" y="202.5" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="800" y="198" />
@@ -95,6 +96,63 @@
             <mxPoint x="1019.9999999999998" y="197.5" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-12" value="可以查数据库或者内存中的数据" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1050" y="170" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-14" value="5.返回&lt;font color=&quot;#ff6666&quot;&gt;UserDetails&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry x="-0.0004" relative="1" as="geometry">
+            <mxPoint x="1049.9999999999998" y="210" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1005" y="240" />
+            </Array>
+            <mxPoint x="804.9999999999998" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="805" y="270" as="sourcePoint" />
+            <mxPoint x="800" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="270" />
+              <mxPoint x="840" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-21" value="&lt;font style=&quot;font-size: 1px;&quot;&gt;Text&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="EK2Y7mVLeQkU_shZ-Vnz-17">
+          <mxGeometry x="-0.1659" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="805" y="310" as="sourcePoint" />
+            <mxPoint x="800" y="330" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="840" y="310" />
+              <mxPoint x="840" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-24" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;6.通过&lt;font color=&quot;#ff0000&quot;&gt;PasswordEncoder&lt;/font&gt;解码&lt;font color=&quot;#ff0000&quot;&gt;UserDetails&lt;/font&gt;密码和Authentication中的密码(前端发来的)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="810" y="260" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-25" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;7.密码一致，则把UserDetails的权限信息设置到Authentication&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="810" y="310" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-26" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="195" y="370" as="sourcePoint" />
+            <mxPoint x="190" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="370" />
+              <mxPoint x="230" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EK2Y7mVLeQkU_shZ-Vnz-28" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;9.把返回对象加入到&lt;font color=&quot;#ff0000&quot;&gt;SecurityContextHolder&lt;/font&gt;，方便后面使用&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="230" y="360" width="275" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
